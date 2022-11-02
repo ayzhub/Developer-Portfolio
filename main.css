@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+    color: #bbb;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.flex {
+    display: flex;
+}
+
+nav {
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 0;
+    align-items: center;
+}
+
+nav ul li a {
+    margin: 0 30px;
+    font-size: 17px;
+}
+
+nav > a {
+    margin: 0 150px;
+    color: white;
+}
+
+.btn {
+    background-color: rgb(231, 231, 10);
+    color: black;
+    padding: 10px 15px;
+}
+
+.sct-1 {
+    padding-top: 20vh;
+    margin: 0 150px;
+    height: 80vh;
+    align-items: center;
+}
+
+.sct-1 p {
+    font-size: 18px;
+}
+
+.sct-1 > div {
+    /* padding: 100px 0; */
+}
